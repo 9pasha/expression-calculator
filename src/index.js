@@ -14,7 +14,7 @@ function expressionCalculator(expr) {
     let operations = [];
     let output = [];
     let str = '';
-    let zeroDivError = new Error('TypeError: Devision by zero.');
+    let zeroDivError = new Error('TypeError: Division by zero.');
     let bracketsError = new Error('ExpressionError: Brackets must be paired'); 
 
     function isNumber(el) {
